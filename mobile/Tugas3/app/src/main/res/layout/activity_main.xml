@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="501dp"
+        android:layout_height="605dp"
+        android:layout_marginTop="-280dp"
+        android:contentDescription="bg"
+        android:src="@drawable/bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="284dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="82dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="332dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="21dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/more" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="52dp"
+        app:tint="#808080"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/more" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="368dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="308dp"
+        android:text="Wishpond"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="164dp"
+        android:text="Wishpond"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="268dp"
+        android:text="Wishpond"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="312dp"
+        android:text="  @Wishpond"
+        android:textColor="#949292"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/searchh" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="286dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="-70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/edit" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="92dp"
+        android:text="Built to grow your business 🐱
+DM for support! "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="368dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/business" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="164dp"
+        android:text="Advertising &amp; Marketing Agency"
+        android:textColor="#808080"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="236dp"
+        android:text="Vancouver, Canada"
+        android:textColor="#808080"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="248dp"
+        android:text="Joined May 2010"
+        android:textColor="#808080"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="172dp"
+        android:text="Tweets &amp; replies"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="236dp"
+        android:text="Pinned Tweet"
+        android:textColor="#808080"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="156dp"
+        android:text=" @Wishpond • 1d"
+        android:textColor="#808080"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="92dp"
+        android:text="Media"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="32dp"
+        android:text="Likes"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="16dp"
+        android:text="http://linktree.ee/wishpond.."
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="364dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/location"
+        app:tint="#808080" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="364dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calendar"
+        app:tint="#808080" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/link" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="344dp"
+        android:text="1 156"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="324dp"
+        android:text="Tweets"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="196dp"
+        android:text="22,1K"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="264dp"
+        android:text="Following"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="116dp"
+        android:text="Followers"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="4dp"
+        android:foreground="@drawable/shadow_divider"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="66dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/remove" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="336dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pin" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="60dp"
+        android:text="This is Fates Forever, a MOBA developed by "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="276dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="60dp"
+        android:text="So how did they go from multiplayer games "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="192dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="144dp"
+        android:text="has revolutionized how people "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="192dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="144dp"
+        android:text="communicate online? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="192dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="696dp"
+        android:layout_marginEnd="144dp"
+        android:text="👀 this 🚪"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="284dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="636dp"
+        android:layout_marginEnd="52dp"
+        android:text="to a chat app that was meant for gamers but "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="192dp"
+        android:text="lay the foundations for "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="80dp"
+        android:text="that would"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="236dp"
+        android:text="&amp;"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="86dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="248dp"
+        android:text=" @jasoncitron"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="86dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="108dp"
+        android:text=" @discord"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="86dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="696dp"
+        android:layout_marginEnd="184dp"
+        android:text="#startupsuccess
+"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="86dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="148dp"
+        android:text=" @svishnevskiy "
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="293dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="728dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ml" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="63dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="780dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/add" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
